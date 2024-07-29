@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.example.com/-jpg.') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 123, 255, 0.9);
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #0056b3;
+}
+
+main {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    margin: 0 0 1em;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5em 0;
+    font-weight: bold;
+    color: #555;
+}
+
+input, select {
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75em;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #004494;
+    transform: scale(0.95);
+}
+
+#chart-section {
+    margin-bottom: 2em;
+}
+
+#transactions {
+    list-style: none;
+    padding: 0;
+}
+
+#transactions li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0.5em 0;
+    padding: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#transactions li:nth-child(even) {
+    background: #f1f1f1;
+}
